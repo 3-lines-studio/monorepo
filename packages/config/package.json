@@ -1,0 +1,15 @@
+{
+  "name": "config",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "main.ts",
+  "types": "main.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "format": "prettier . --write",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "tsconfig": "*"
+  }
+}

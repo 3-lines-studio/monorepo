@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "tsx main.ts",
+    "build": "tsup main.ts --format esm",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier . --write",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.2",
+    "hono": "^4.5.10"
+  },
+  "devDependencies": {
+    "tsconfig": "*",
+    "config": "*"
+  }
+}
